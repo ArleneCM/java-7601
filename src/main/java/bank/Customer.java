@@ -1,5 +1,6 @@
 package bank;
 
+// class to model the Customer object
 public class Customer {
   private int id;
   private String name;
@@ -7,6 +8,7 @@ public class Customer {
   private String password;
   private int accountId;
 
+  // constructor for object instantiation
   public Customer(int id, String name, String username, String password, int accountId) {
     setId(id);
     setName(name);
