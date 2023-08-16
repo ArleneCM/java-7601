@@ -6,19 +6,24 @@ import java.sql.SQLException;
 
 public class DataSource {
 
-  public static Connection connect() {
+  public static Connection connect(){
     String db_file = "jdbc:sqlite:resources/bank.db";
     Connection connection = null;
-
-    try {
+    
+    try{
       connection = DriverManager.getConnection(db_file);
       System.out.println("We're now connected.");
     } catch (SQLException e) {
       e.printStackTrace();
     }
 
-    return connection;
+    return connection;    
 
   }
 
+  public static void main(String[] args){
+    connect();
+    
+  }
+  
 }
