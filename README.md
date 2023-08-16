@@ -7,5 +7,5 @@ Project Task: To build a basic banking system that allows customers of Global Ba
 
 ![thumbnail](https://github.com/ArleneCM/java-7601/blob/main/thumbnail_banking.png)
 
-This is the repository for the LinkedIn Learning course Hands-On Introduction: Java. The full course is available from [LinkedIn Learning][lil-course-url].
+The full course is available from [LinkedIn Learning][lil-course-url].
 
